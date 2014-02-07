@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5045B4C718A5A9D100CAB543 /* ripple_hyperleveldb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5045B4C618A5A9D100CAB543 /* ripple_hyperleveldb.cpp */; };
+		5080D9A718962EE2000B1ED6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5080D9A618962EE2000B1ED6 /* AppKit.framework */; };
+		5080D9A918962EED000B1ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5080D9A818962EED000B1ED6 /* Foundation.framework */; };
+		50A3B82918A5767D0051FC4D /* ripple_beastc.c in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B82818A5767D0051FC4D /* ripple_beastc.c */; };
+		50A3B82B18A576910051FC4D /* ripple_beastobjc.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B82A18A576910051FC4D /* ripple_beastobjc.mm */; };
+		50A3B82F18A58A9D0051FC4D /* ripple_http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B82E18A58A9D0051FC4D /* ripple_http.cpp */; };
+		50A3B83118A58AAE0051FC4D /* ripple_json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83018A58AAE0051FC4D /* ripple_json.cpp */; };
+		50A3B83318A58ABA0051FC4D /* ripple_peerfinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83218A58ABA0051FC4D /* ripple_peerfinder.cpp */; };
+		50A3B83518A58ADF0051FC4D /* ripple_radmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83418A58ADF0051FC4D /* ripple_radmap.cpp */; };
+		50A3B83718A58AF30051FC4D /* ripple_resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83618A58AF30051FC4D /* ripple_resource.cpp */; };
+		50A3B83918A58AFB0051FC4D /* ripple_rocksdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83818A58AFB0051FC4D /* ripple_rocksdb.cpp */; };
+		50A3B83B18A58B110051FC4D /* ripple_sitefiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83A18A58B110051FC4D /* ripple_sitefiles.cpp */; };
+		50A3B83D18A58B1B0051FC4D /* ripple_sslutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83C18A58B1B0051FC4D /* ripple_sslutil.cpp */; };
+		50A3B83F18A58B280051FC4D /* ripple_testoverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B83E18A58B280051FC4D /* ripple_testoverlay.cpp */; };
+		50A3B84118A58B420051FC4D /* ripple_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B84018A58B420051FC4D /* ripple_types.cpp */; };
+		50A3B84318A58B4E0051FC4D /* ripple_validators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B84218A58B4E0051FC4D /* ripple_validators.cpp */; };
+		50A3B84518A58B5A0051FC4D /* ripple_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B84418A58B5A0051FC4D /* ripple_common.cpp */; };
+		50A3B85718A58B6B0051FC4D /* ripple_app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B84E18A58B6B0051FC4D /* ripple_app.cpp */; };
+		50A3B85918A58B840051FC4D /* ripple_basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B85818A58B840051FC4D /* ripple_basics.cpp */; };
+		50A3B85B18A58B8C0051FC4D /* ripple_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B85A18A58B8C0051FC4D /* ripple_core.cpp */; };
+		50A3B85D18A58B950051FC4D /* ripple_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B85C18A58B950051FC4D /* ripple_data.cpp */; };
+		50A3B86118A58BA60051FC4D /* ripple_leveldb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B86018A58BA60051FC4D /* ripple_leveldb.cpp */; };
+		50A3B86318A58BB50051FC4D /* ripple_net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B86218A58BB50051FC4D /* ripple_net.cpp */; };
+		50A3B86518A58BBD0051FC4D /* ripple_rpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B86418A58BBD0051FC4D /* ripple_rpc.cpp */; };
+		50A3B86718A58BC50051FC4D /* ripple_websocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A3B86618A58BC50051FC4D /* ripple_websocket.cpp */; };
+		50B2A7C818A5A5D70033E4BA /* ripple_app_pt1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7BF18A5A5D70033E4BA /* ripple_app_pt1.cpp */; };
+		50B2A7C918A5A5D70033E4BA /* ripple_app_pt2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C018A5A5D70033E4BA /* ripple_app_pt2.cpp */; };
+		50B2A7CA18A5A5D70033E4BA /* ripple_app_pt3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C118A5A5D70033E4BA /* ripple_app_pt3.cpp */; };
+		50B2A7CB18A5A5D70033E4BA /* ripple_app_pt4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C218A5A5D70033E4BA /* ripple_app_pt4.cpp */; };
+		50B2A7CC18A5A5D70033E4BA /* ripple_app_pt5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C318A5A5D70033E4BA /* ripple_app_pt5.cpp */; };
+		50B2A7CD18A5A5D70033E4BA /* ripple_app_pt6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C418A5A5D70033E4BA /* ripple_app_pt6.cpp */; };
+		50B2A7CE18A5A5D70033E4BA /* ripple_app_pt7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C518A5A5D70033E4BA /* ripple_app_pt7.cpp */; };
+		50B2A7CF18A5A5D70033E4BA /* ripple_app_pt8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C618A5A5D70033E4BA /* ripple_app_pt8.cpp */; };
+		50B2A7D018A5A5D70033E4BA /* ripple_app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B2A7C718A5A5D70033E4BA /* ripple_app.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50460D14188872CC001799C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5045B4C618A5A9D100CAB543 /* ripple_hyperleveldb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_hyperleveldb.cpp; path = ../../src/ripple_hyperleveldb/ripple_hyperleveldb.cpp; sourceTree = SOURCE_ROOT; };
+		50460D16188872CC001799C4 /* Modules */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Modules; sourceTree = BUILT_PRODUCTS_DIR; };
+		5080D9A618962EE2000B1ED6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5080D9A818962EED000B1ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50A3B82418A5765D0051FC4D /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = doc; path = ../../doc; sourceTree = SOURCE_ROOT; };
+		50A3B82518A5765D0051FC4D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = SOURCE_ROOT; };
+		50A3B82618A5765D0051FC4D /* SConstruct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SConstruct; path = ../../SConstruct; sourceTree = SOURCE_ROOT; };
+		50A3B82718A5765D0051FC4D /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../src; sourceTree = SOURCE_ROOT; };
+		50A3B82818A5767D0051FC4D /* ripple_beastc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ripple_beastc.c; path = ../../src/ripple/beast/ripple_beastc.c; sourceTree = SOURCE_ROOT; };
+		50A3B82A18A576910051FC4D /* ripple_beastobjc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ripple_beastobjc.mm; path = ../../src/ripple/beast/ripple_beastobjc.mm; sourceTree = SOURCE_ROOT; };
+		50A3B82E18A58A9D0051FC4D /* ripple_http.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_http.cpp; path = ../../src/ripple/http/ripple_http.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83018A58AAE0051FC4D /* ripple_json.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_json.cpp; path = ../../src/ripple/json/ripple_json.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83218A58ABA0051FC4D /* ripple_peerfinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_peerfinder.cpp; path = ../../src/ripple/peerfinder/ripple_peerfinder.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83418A58ADF0051FC4D /* ripple_radmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_radmap.cpp; path = ../../src/ripple/radmap/ripple_radmap.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83618A58AF30051FC4D /* ripple_resource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_resource.cpp; path = ../../src/ripple/resource/ripple_resource.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83818A58AFB0051FC4D /* ripple_rocksdb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_rocksdb.cpp; path = ../../src/ripple/rocksdb/ripple_rocksdb.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83A18A58B110051FC4D /* ripple_sitefiles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_sitefiles.cpp; path = ../../src/ripple/sitefiles/ripple_sitefiles.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83C18A58B1B0051FC4D /* ripple_sslutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_sslutil.cpp; path = ../../src/ripple/sslutil/ripple_sslutil.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B83E18A58B280051FC4D /* ripple_testoverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_testoverlay.cpp; path = ../../src/ripple/testoverlay/ripple_testoverlay.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B84018A58B420051FC4D /* ripple_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_types.cpp; path = ../../src/ripple/types/ripple_types.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B84218A58B4E0051FC4D /* ripple_validators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_validators.cpp; path = ../../src/ripple/validators/ripple_validators.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B84418A58B5A0051FC4D /* ripple_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_common.cpp; path = ../../src/ripple/common/ripple_common.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B84E18A58B6B0051FC4D /* ripple_app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app.cpp; path = ../../../../rippled/src/ripple_app/ripple_app.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B85818A58B840051FC4D /* ripple_basics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_basics.cpp; path = ../../src/ripple_basics/ripple_basics.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B85A18A58B8C0051FC4D /* ripple_core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_core.cpp; path = ../../src/ripple_core/ripple_core.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B85C18A58B950051FC4D /* ripple_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_data.cpp; path = ../../src/ripple_data/ripple_data.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B86018A58BA60051FC4D /* ripple_leveldb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_leveldb.cpp; path = ../../src/ripple_leveldb/ripple_leveldb.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B86218A58BB50051FC4D /* ripple_net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_net.cpp; path = ../../src/ripple_net/ripple_net.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B86418A58BBD0051FC4D /* ripple_rpc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_rpc.cpp; path = ../../src/ripple_rpc/ripple_rpc.cpp; sourceTree = SOURCE_ROOT; };
+		50A3B86618A58BC50051FC4D /* ripple_websocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_websocket.cpp; path = ../../src/ripple_websocket/ripple_websocket.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7BF18A5A5D70033E4BA /* ripple_app_pt1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt1.cpp; path = ../../src/ripple_app/ripple_app_pt1.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C018A5A5D70033E4BA /* ripple_app_pt2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt2.cpp; path = ../../src/ripple_app/ripple_app_pt2.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C118A5A5D70033E4BA /* ripple_app_pt3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt3.cpp; path = ../../src/ripple_app/ripple_app_pt3.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C218A5A5D70033E4BA /* ripple_app_pt4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt4.cpp; path = ../../src/ripple_app/ripple_app_pt4.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C318A5A5D70033E4BA /* ripple_app_pt5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt5.cpp; path = ../../src/ripple_app/ripple_app_pt5.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C418A5A5D70033E4BA /* ripple_app_pt6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt6.cpp; path = ../../src/ripple_app/ripple_app_pt6.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C518A5A5D70033E4BA /* ripple_app_pt7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt7.cpp; path = ../../src/ripple_app/ripple_app_pt7.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C618A5A5D70033E4BA /* ripple_app_pt8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app_pt8.cpp; path = ../../src/ripple_app/ripple_app_pt8.cpp; sourceTree = SOURCE_ROOT; };
+		50B2A7C718A5A5D70033E4BA /* ripple_app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ripple_app.cpp; path = ../../src/ripple_app/ripple_app.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50460D13188872CC001799C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5080D9A918962EED000B1ED6 /* Foundation.framework in Frameworks */,
+				5080D9A718962EE2000B1ED6 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50460D0D188872CC001799C4 = {
+			isa = PBXGroup;
+			children = (
+				50CE007C18A16401005697BF /* frameworks */,
+				50CE007B18A163DB005697BF /* files */,
+				50460D18188872CC001799C4 /* modules */,
+				50460D17188872CC001799C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50460D17188872CC001799C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50460D16188872CC001799C4 /* Modules */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50460D18188872CC001799C4 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				50A3B82818A5767D0051FC4D /* ripple_beastc.c */,
+				50A3B82A18A576910051FC4D /* ripple_beastobjc.mm */,
+				50A3B84418A58B5A0051FC4D /* ripple_common.cpp */,
+				50A3B86618A58BC50051FC4D /* ripple_websocket.cpp */,
+				50A3B86218A58BB50051FC4D /* ripple_net.cpp */,
+				50A3B86018A58BA60051FC4D /* ripple_leveldb.cpp */,
+				50A3B85C18A58B950051FC4D /* ripple_data.cpp */,
+				5045B4C618A5A9D100CAB543 /* ripple_hyperleveldb.cpp */,
+				50A3B85A18A58B8C0051FC4D /* ripple_core.cpp */,
+				50A3B85818A58B840051FC4D /* ripple_basics.cpp */,
+				50B2A7BF18A5A5D70033E4BA /* ripple_app_pt1.cpp */,
+				50B2A7C018A5A5D70033E4BA /* ripple_app_pt2.cpp */,
+				50B2A7C118A5A5D70033E4BA /* ripple_app_pt3.cpp */,
+				50B2A7C218A5A5D70033E4BA /* ripple_app_pt4.cpp */,
+				50B2A7C318A5A5D70033E4BA /* ripple_app_pt5.cpp */,
+				50B2A7C418A5A5D70033E4BA /* ripple_app_pt6.cpp */,
+				50B2A7C518A5A5D70033E4BA /* ripple_app_pt7.cpp */,
+				50B2A7C618A5A5D70033E4BA /* ripple_app_pt8.cpp */,
+				50B2A7C718A5A5D70033E4BA /* ripple_app.cpp */,
+				50A3B84E18A58B6B0051FC4D /* ripple_app.cpp */,
+				50A3B84218A58B4E0051FC4D /* ripple_validators.cpp */,
+				50A3B84018A58B420051FC4D /* ripple_types.cpp */,
+				50A3B83E18A58B280051FC4D /* ripple_testoverlay.cpp */,
+				50A3B86418A58BBD0051FC4D /* ripple_rpc.cpp */,
+				50A3B83C18A58B1B0051FC4D /* ripple_sslutil.cpp */,
+				50A3B83A18A58B110051FC4D /* ripple_sitefiles.cpp */,
+				50A3B83818A58AFB0051FC4D /* ripple_rocksdb.cpp */,
+				50A3B83618A58AF30051FC4D /* ripple_resource.cpp */,
+				50A3B83218A58ABA0051FC4D /* ripple_peerfinder.cpp */,
+				50A3B83018A58AAE0051FC4D /* ripple_json.cpp */,
+				50A3B82E18A58A9D0051FC4D /* ripple_http.cpp */,
+				50A3B83418A58ADF0051FC4D /* ripple_radmap.cpp */,
+			);
+			name = modules;
+			path = RippleProject;
+			sourceTree = SOURCE_ROOT;
+		};
+		50CE007B18A163DB005697BF /* files */ = {
+			isa = PBXGroup;
+			children = (
+				50A3B82418A5765D0051FC4D /* doc */,
+				50A3B82518A5765D0051FC4D /* README.md */,
+				50A3B82618A5765D0051FC4D /* SConstruct */,
+				50A3B82718A5765D0051FC4D /* src */,
+			);
+			name = files;
+			sourceTree = SOURCE_ROOT;
+		};
+		50CE007C18A16401005697BF /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5080D9A818962EED000B1ED6 /* Foundation.framework */,
+				5080D9A618962EE2000B1ED6 /* AppKit.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50460D15188872CC001799C4 /* Modules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50460D1F188872CC001799C4 /* Build configuration list for PBXNativeTarget "Modules" */;
+			buildPhases = (
+				50460D12188872CC001799C4 /* Sources */,
+				50460D13188872CC001799C4 /* Frameworks */,
+				50460D14188872CC001799C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modules;
+			productName = RippleProject;
+			productReference = 50460D16188872CC001799C4 /* Modules */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50460D0E188872CC001799C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tim Lewkow";
+			};
+			buildConfigurationList = 50460D11188872CC001799C4 /* Build configuration list for PBXProject "Modules" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50460D0D188872CC001799C4;
+			productRefGroup = 50460D17188872CC001799C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50460D15188872CC001799C4 /* Modules */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50460D12188872CC001799C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A3B85D18A58B950051FC4D /* ripple_data.cpp in Sources */,
+				50A3B82918A5767D0051FC4D /* ripple_beastc.c in Sources */,
+				50B2A7CE18A5A5D70033E4BA /* ripple_app_pt7.cpp in Sources */,
+				50A3B84318A58B4E0051FC4D /* ripple_validators.cpp in Sources */,
+				50A3B83118A58AAE0051FC4D /* ripple_json.cpp in Sources */,
+				50B2A7CD18A5A5D70033E4BA /* ripple_app_pt6.cpp in Sources */,
+				50A3B82B18A576910051FC4D /* ripple_beastobjc.mm in Sources */,
+				50A3B85B18A58B8C0051FC4D /* ripple_core.cpp in Sources */,
+				50B2A7D018A5A5D70033E4BA /* ripple_app.cpp in Sources */,
+				50A3B85718A58B6B0051FC4D /* ripple_app.cpp in Sources */,
+				50A3B86718A58BC50051FC4D /* ripple_websocket.cpp in Sources */,
+				50B2A7CC18A5A5D70033E4BA /* ripple_app_pt5.cpp in Sources */,
+				50A3B86118A58BA60051FC4D /* ripple_leveldb.cpp in Sources */,
+				50A3B86518A58BBD0051FC4D /* ripple_rpc.cpp in Sources */,
+				50B2A7C818A5A5D70033E4BA /* ripple_app_pt1.cpp in Sources */,
+				50A3B83318A58ABA0051FC4D /* ripple_peerfinder.cpp in Sources */,
+				50A3B83518A58ADF0051FC4D /* ripple_radmap.cpp in Sources */,
+				50A3B85918A58B840051FC4D /* ripple_basics.cpp in Sources */,
+				50A3B84518A58B5A0051FC4D /* ripple_common.cpp in Sources */,
+				50A3B84118A58B420051FC4D /* ripple_types.cpp in Sources */,
+				50A3B83718A58AF30051FC4D /* ripple_resource.cpp in Sources */,
+				50A3B83918A58AFB0051FC4D /* ripple_rocksdb.cpp in Sources */,
+				50B2A7CB18A5A5D70033E4BA /* ripple_app_pt4.cpp in Sources */,
+				50A3B83B18A58B110051FC4D /* ripple_sitefiles.cpp in Sources */,
+				50A3B83D18A58B1B0051FC4D /* ripple_sslutil.cpp in Sources */,
+				5045B4C718A5A9D100CAB543 /* ripple_hyperleveldb.cpp in Sources */,
+				50B2A7C918A5A5D70033E4BA /* ripple_app_pt2.cpp in Sources */,
+				50B2A7CA18A5A5D70033E4BA /* ripple_app_pt3.cpp in Sources */,
+				50B2A7CF18A5A5D70033E4BA /* ripple_app_pt8.cpp in Sources */,
+				50A3B86318A58BB50051FC4D /* ripple_net.cpp in Sources */,
+				50A3B83F18A58B280051FC4D /* ripple_testoverlay.cpp in Sources */,
+				50A3B82F18A58A9D0051FC4D /* ripple_http.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50460D1D188872CC001799C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		50460D1E188872CC001799C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		50460D20188872CC001799C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/Cellar/protobuf/2.5.0/include/**",
+					/usr/local/Cellar/openssl/1.0.1f/include,
+					/usr/local/Cellar/ctags/5.8/include,
+					/usr/local/Cellar/boost/1.55.0/include,
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/protobuf/2.5.0/lib,
+					/usr/local/Cellar/boost/1.55.0/lib,
+					/usr/local/Cellar/openssl/1.0.1f/lib,
+					/usr/local/opt/openssl/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+					"-lz",
+					"-lprotobuf",
+					"-lboost_program_options-mt",
+					"-lboost_date_time-mt",
+					"-lboost_filesystem-mt",
+					"-lboost_thread-mt",
+					"-lboost_system-mt",
+					"-lboost_regex-mt",
+				);
+				PRODUCT_NAME = Modules;
+				USER_HEADER_SEARCH_PATHS = "/$(PROJECT_DIR)/../../src/leveldb /$(PROJECT_DIR)/../../src/leveldb/port /$(PROJECT_DIR)/../../src/leveldb/include /$(PROJECT_DIR)/../../src/beast /$(PROJECT_DIR)/../../build/proto /$(PROJECT_DIR)/../../src /$(PROJECT_DIR)/../..";
+			};
+			name = Debug;
+		};
+		50460D21188872CC001799C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/Cellar/protobuf/2.5.0/include/**",
+					/usr/local/Cellar/openssl/1.0.1f/include,
+					/usr/local/Cellar/ctags/5.8/include,
+					/usr/local/Cellar/boost/1.55.0/include,
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/protobuf/2.5.0/lib,
+					/usr/local/Cellar/boost/1.55.0/lib,
+					/usr/local/Cellar/openssl/1.0.1f/lib,
+					/usr/local/opt/openssl/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+					"-lz",
+					"-lprotobuf",
+					"-lboost_program_options-mt",
+					"-lboost_date_time-mt",
+					"-lboost_filesystem-mt",
+					"-lboost_thread-mt",
+					"-lboost_system-mt",
+					"-lboost_regex-mt",
+				);
+				PRODUCT_NAME = Modules;
+				USER_HEADER_SEARCH_PATHS = "/$(PROJECT_DIR)/../../src/leveldb /$(PROJECT_DIR)/../../src/leveldb/port /$(PROJECT_DIR)/../../src/leveldb/include /$(PROJECT_DIR)/../../src/beast /$(PROJECT_DIR)/../../build/proto /$(PROJECT_DIR)/../../src /$(PROJECT_DIR)/../..";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50460D11188872CC001799C4 /* Build configuration list for PBXProject "Modules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50460D1D188872CC001799C4 /* Debug */,
+				50460D1E188872CC001799C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50460D1F188872CC001799C4 /* Build configuration list for PBXNativeTarget "Modules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50460D20188872CC001799C4 /* Debug */,
+				50460D21188872CC001799C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50460D0E188872CC001799C4 /* Project object */;
+}
